@@ -1,0 +1,8 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+body {
+  margin: 0;
+  font-family: "Harry Potter", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
