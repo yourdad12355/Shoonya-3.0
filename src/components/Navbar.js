@@ -3,16 +3,15 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/LEAD_white.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
+  AiOutlineSchedule,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { FaQuestion } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -64,6 +63,7 @@ function NavBar() {
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
+
               >
                 <AiOutlineUser style={{ marginBottom: "1px" }} /> About us
               </Nav.Link>
@@ -72,7 +72,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/event"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -83,25 +83,26 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
+              <Nav.Link as={Link} to="/schedule" onClick={() => updateExpanded(false)}>
+                <AiOutlineSchedule style={{ marginBottom: "1px"  }} /> Schedule
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/sponsors"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "1px" }} /> Sponsors
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumyajit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "1px" }} /> Contact
+            <Nav.Item >
+              <Nav.Link as={Link} to="/faq" onClick={() => updateExpanded(false)}>
+                <FaQuestion style={{ marginBottom: "1px"  }} /> FAQ
               </Nav.Link>
             </Nav.Item>
-
             
           </Nav>
         </Navbar.Collapse>
