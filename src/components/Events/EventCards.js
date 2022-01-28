@@ -3,9 +3,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 
-function ProjectCards(props) {
+function EventCards(props) {
   return (
-    <Card className="project-card-view">
+    <Card className="event-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title style={{color:"#c770f0"}}>{props.title}</Card.Title>
@@ -17,4 +17,4 @@ function ProjectCards(props) {
     </Card>
   );
 }
-export default ProjectCards;
+export default EventCards;
