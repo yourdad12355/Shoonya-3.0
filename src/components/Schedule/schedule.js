@@ -33,7 +33,7 @@ function schedule() {
               date={element.date}
               dateClassName="date"
               // iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={<Image src='https://dragon.online-convert.com/download-file/da3e4561-ee71-495d-a3c7-84eede7f922c/de56a05a-a5c4-404f-9040-58d8e49a391e?qr=true' class="time-icon"/>}
+              icon={<Image src='https://www.comprensivobosisio.it/vedem/wp-content/uploads/2015/03/comune21.jpg' class="time-icon"/>}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
