@@ -4,7 +4,7 @@ import data from './data';
 import SingleQuestion from './Question';
 
 function Faq() {
-  const [questions,setQuestions] = useState(data);
+  const [questions] = useState(data);
   return (
     <section>
       <Container fluid className="faq-container" id="home">

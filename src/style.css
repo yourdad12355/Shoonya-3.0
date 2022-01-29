@@ -7,8 +7,8 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(0, 0, 0, 0.550),
-    rgba(0, 0, 0, 0.550)
+    rgba(0, 0, 0, 0.450),
+    rgba(0, 0, 0, 0.450)
   );
 
   --imp-text-color: #000000;
@@ -256,6 +256,46 @@ html {
   height: 100%;
 } */
 
+.vertical-timeline-element-title {
+  color: #000000;
+}
+
+.vertical-timeline-element-content p {
+  color: #000000;
+  font-family: 'Short Stack', cursive !important;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  opacity: 1;
+  font-family: 'Story Maker GT', sans-serif;
+}
+
+@media only screen and (min-width: 1170px) {
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    position: absolute;
+    width: 100%;
+    left: 124%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1.75rem;
+}
+}
+
+.time-icon {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-timeline::before,
+.vertical-timeline::after {
+  background-color:#B38728;
+}
+
+.vertical-timeline-element-icon {
+  background-color:#B38728;
+}
+
 /* --------- */
 /* FAQ */
 /* --------- */
@@ -333,7 +373,7 @@ html {
 
 .schedule-section {
   size: 100%;
-  background-image: var(--image-gradient), url(./Assets/imageschedule.png);
+  background-image: var(--image-gradient), url(./Assets/schedule.jpeg);
   height: 100%;
   width: 100%;
   background-position: top center;
