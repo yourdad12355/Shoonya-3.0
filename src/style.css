@@ -913,3 +913,15 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 } */
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  font-family:  'Magic Owl', sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.time {
+  font-size: 32px;
+  color: #b3831e;
+}

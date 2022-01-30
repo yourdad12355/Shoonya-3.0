@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
+import Timer from "./Timer";
 
 function Home() {
-  return (
+  return (  
     <section>
       <Container fluid className="home-section" id="home">
         
@@ -16,6 +17,7 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+              <Timer />
             </Col>
           </Row>
         </Container>
