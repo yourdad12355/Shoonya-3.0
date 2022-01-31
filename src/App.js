@@ -5,7 +5,9 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Event from "./components/Events/Events";
 import Footer from "./components/Footer";
+
 import Resume from "./components/Sponsors/Resume";
+
 import Schedule from "./components/Schedule/schedule"
 import Faq from "./components/FAQ/faq"
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -38,7 +40,9 @@ function App() {
           <Route path="/event" component={Event} />
           <Route path="/about" component={About} />
           <Route path="/faq" component={Faq} />
+
           <Route path="/Sponsors" component={Resume} />
+
           <Route path="/schedule" component={Schedule} />
         </Switch>
         <Footer />

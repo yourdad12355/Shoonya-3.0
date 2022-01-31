@@ -303,14 +303,13 @@ html {
 .faq-container {
   size: 100%;
   background-image: var(--image-gradient), url(./Assets/faq.jpeg);
-  position:absolute;
   height: 100%;
   width: 100%;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: -200px !important;
-  padding-top: -600px !important;
+  padding-bottom: -10px !important;
+  padding-top: -100px !important;
 }
 
 .section{
@@ -359,17 +358,21 @@ html {
 }
 
 .faq-name {
-  font-size: 2.5em !important;
-  padding-bottom: 20px;
+width: 809px;
+height: 148px;
+left: 70px;
+top: 168px;
+font-family: Harry Potter;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 144px;
 }
 
 /* --------- */
 /* Schedule */
 /* --------- */
 
-.schedule-header {
-  padding-top: 80px !important;
-}
 
 .schedule-section {
   size: 100%;
@@ -379,16 +382,17 @@ html {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 30px !important;
+  padding-bottom: 300px !important;
   padding-top: 30px !important;
 }
 
 
 .schedule-content {
-  padding: 15rem 0 !important;
+  padding: 10rem 0 !important;
   color: whitesmoke;
   text-align: left;
 }
+
 
 /* --------- */
 /* Home */
@@ -417,7 +421,7 @@ html {
 
 
 .home-content {
-  padding: 15rem 0 !important;
+  padding: 10rem 0 !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -762,6 +766,7 @@ html {
     padding-top: 0 !important;
   }
 }
+
 
 .resume-section {
   position: relative !important;
