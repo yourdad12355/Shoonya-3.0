@@ -807,7 +807,7 @@ html {
     padding-left: 15px !important;
   }
 }
-/* .resume .resume-title {
+ .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
   padding-top: 30px;
@@ -876,7 +876,7 @@ html {
   transform: translateY(-2px) !important;
   background-color: #00000086 !important;
   border-color: #00000086 !important;
-} */
+} 
 
 .animate-like {
   animation-name: likeAnimation;
