@@ -770,6 +770,7 @@ line-height: 144px;
 /* Sponsors */
 /* --------- */
 
+
 .resume-section {
   
   padding-top: 110px !important;
@@ -782,7 +783,6 @@ line-height: 144px;
 .resume {
   padding-top: 10px;
   padding-bottom: 50px;
-
 }
 
 .resume-left {
@@ -791,13 +791,6 @@ line-height: 144px;
 
 .resume-right {
   padding-left: 80px !important;
-}
-
-.resume-heading {
-  color: white !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
 }
 
 @media (max-width: 767px) {
@@ -811,7 +804,7 @@ line-height: 144px;
     padding-left: 15px !important;
   }
 }
-/* .resume .resume-title {
+.resume .resume-title {
   font-size: 2em;
   font-weight: 700;
   padding-top: 30px;
