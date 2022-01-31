@@ -16,9 +16,9 @@ function schedule() {
       <Container fluid className="schedule-section" id="schedule">
         
         <Container className="schedule-content">
-          <Row>
+          <Row style={{ justifyContent: "left",paddingTop: "-100px",margin:"-10px",border:"-20px"}}>
             <Col md={7} className="schedule-header">
-                <h1 className="heading-name">
+                <h1 className="faq-name">
                 Schedule
                 </h1>
                 <h1 className="title">Timeline</h1>
