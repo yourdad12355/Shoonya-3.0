@@ -765,31 +765,31 @@ html {
 /* --------- */
 /* Sponsors */
 /* --------- */
-.sponsor-section {
-  position: relative !important;
+
+.resume-section {
+  
   padding-top: 110px !important;
-  padding-bottom: 150px !important;
-  background-image:  var(--image-gradient), url(./Assets/sponsors.jpeg);
-  background-position: top center;
-  background-repeat: no-repeat;
- 
+  padding-bottom: 30px !important;
+  background-image: var(--image-gradient), url(./Assets/sponsors.jpeg);
+  background-position: center;
   color: white !important;
 }
 
-.sponsor {
-  padding-top: 150px;
-  padding-bottom: 150px;
+.resume {
+  padding-top: 10px;
+  padding-bottom: 50px;
+
 }
 
-.sponsor-left {
+.resume-left {
   padding-right: 80px !important;
 }
 
-.sponsor-right {
+.resume-right {
   padding-left: 80px !important;
 }
 
-.sponsor-heading {
+.resume-heading {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
@@ -797,12 +797,12 @@ html {
 }
 
 @media (max-width: 767px) {
-  .sponsor-left {
+  .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 
-  .sponsor-right {
+  .resume-right {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
@@ -824,7 +824,7 @@ html {
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #0000005d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -878,7 +878,7 @@ html {
   border-color: #00000086 !important;
 } */
 
-/*.animate-like {
+.animate-like {
   animation-name: likeAnimation;
   animation-fill-mode: forwards;
   animation-duration: 0.85s;
