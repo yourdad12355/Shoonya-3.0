@@ -1,5 +1,6 @@
 {
   "name": "shoonya",
+  "homepage":".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,6 +22,7 @@
     "react-vertical-timeline-component": "^3.5.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^0.2.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
