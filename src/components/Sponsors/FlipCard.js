@@ -1,4 +1,4 @@
-import Sample from '../../Assets/samplesponsor.png';
+
 import {Card} from 'react-bootstrap';
 
 
